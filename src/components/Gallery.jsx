@@ -45,7 +45,7 @@ const Gallery = ({ tours, setTours, onRemove }) => { //Importing the Gallery com
     if (tours.length === 0) {
         return (
             <div>
-                <h2>No tours left</h2>
+                <h2>No tours left. Refresh to reload.</h2>
                 <button onClick={fetchTours}>Refresh</button>
             </div>
         );
